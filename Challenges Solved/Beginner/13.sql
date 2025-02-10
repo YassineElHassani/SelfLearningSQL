@@ -1,0 +1,1 @@
+SELECT OrderID, ProductID, UnitPrice, Quantity, sum(UnitPrice * Quantity) AS TotalPrice FROM OrderDetails
